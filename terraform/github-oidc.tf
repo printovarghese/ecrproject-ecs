@@ -32,7 +32,7 @@ resource "aws_iam_role" "github_actions" {
           }
 
           StringLike = {
-            "token.actions.githubusercontent.com:sub" = "repo:printovarghese/ecrproject-ecs:*"
+            "token.actions.githubusercontent.com:sub" = "repo:printovarghese@237705638/ecrproject-ecs@1333336713:ref:refs/heads/main"
           }
         }
       }
